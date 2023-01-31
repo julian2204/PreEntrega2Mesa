@@ -1,4 +1,23 @@
-body {
-    width: 100vw;
-    height: 100vh ;
-}   
+@font-face {
+    font-family: "mifuentelocal";
+    src: url(../assets/fonts/Hopeful_Christmas.ttf);
+}
+ 
+.navbar-brand {
+    font-family: "mifuentelocal";
+}
+header{
+    background-color: #9bfab0;
+}
+footer {
+    background-color: white;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+}
+.img-fluid:hover {
+    box-shadow: 0 0.1rem 0.4rem rgb(0, 0, 0,0.3);
+    transform: scale(1.05);
+}
